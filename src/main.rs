@@ -85,7 +85,7 @@ fn main() {
 
     // Instantiate vlc instance and media player
     let instance = Instance::new().unwrap();
-    let md = Media::new_path(&instance, "/home/pi/testvid2.mkv").unwrap();
+    let md = Media::new_path(&instance, "/home/charliepi/testvid2.mkv").unwrap();
     let mdp = MediaPlayer::new(&instance).unwrap();
     mdp.set_media(&md);
 
